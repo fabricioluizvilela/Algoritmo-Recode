@@ -1,8 +1,4 @@
 algoritmo "Cadastro"
-// FunÁ„o :
-// Autor :
-// Data : 14/09/2010
-// SeÁ„o de DeclaraÁıes
 var
 opc:inteiro
 opcao:inteiro
@@ -10,11 +6,11 @@ opcao2:inteiro
 nome, endereco:caracter
 cpf,telefone,data_nascimento:caracter
 inicio
-// SeÁ„o de Comandos
+// Se√ß√£o de Comandos
    escreval("*****Cadastro de cliente ------> 1")
    escreval("*****Cadastro de destino ------> 0")
    leia(opc)
-   se opc =1 ent„o
+   se opc =1 ent√£o
    escreval("*****Cadastro de cliente*****")
    escreval("1-incluir")
    escreval("2-Alterar")
@@ -22,10 +18,10 @@ inicio
    escreval("4-Excluir")
    escreval("5-Sair")
    leia(opcao)
-   se opcao=1 ent„o
+   se opcao=1 ent√£o
       escreva("Nome:")
       leia(nome)
-      escreva("EndereÁo:")
+      escreva("Endere√ßo:")
       leia(endereco)
       escreva("CPF:")
       leia(cpf)
@@ -34,27 +30,27 @@ inicio
       escreva("Data Nascimento:")
       leia(data_nascimento)
    senao
-        se opcao=2 ent„o
+        se opcao=2 ent√£o
             escreval("*****Alterar dados*****")
             escreval("Alterar Nome - 1")
-            escreval("Alterar EndereÁo - 2")
+            escreval("Alterar Endere√ßo - 2")
             escreval("Aleterar CPF - 3")
             escreval("Alterar Telefone - 4")
             escreval("Alterar Data de Nascimento - 5")
             leia(tipo)
-            se tipo=1 ent„o
+            se tipo=1 ent√£o
                escreva("Altere o Nome:")
             senao
-               se tipo=2 ent„o
-                  escreva("Altere o EndereÁo:")
+               se tipo=2 ent√£o
+                  escreva("Altere o Endere√ßo:")
                senao
-                  se tipo=3 ent„o
+                  se tipo=3 ent√£o
                      escreva("Altere o CPF:")
                   senao
-                     se tipo=4 ent„o
+                     se tipo=4 ent√£o
                         escreva("Altere o Telefone:")
                      senao
-                        se tipo=5 ent„o
+                        se tipo=5 ent√£o
                            escreva("Altere a Data de Nascimento:")
                         fimse
                      fimse
@@ -62,27 +58,27 @@ inicio
                fimse
             fimse
         senao
-            se opcao =3 ent„o
+            se opcao =3 ent√£o
                escreval("*****Consultar dados*****")
                escreval("Consultar Nome - 1")
-               escreval("Consultar EndereÁo - 2")
+               escreval("Consultar Endere√ßo - 2")
                escreval("Consultar CPF - 3")
                escreval("Consultar Telefone - 4")
                escreval("Consultar Data de Nascimento - 5")
                leia(tipo)
-               se tipo=1 ent„o
+               se tipo=1 ent√£o
                   escreva("Consulte o Nome:")
                senao
-                    se tipo=2 ent„o
-                       escreva("Consulte o EndereÁo:")
+                    se tipo=2 ent√£o
+                       escreva("Consulte o Endere√ßo:")
                     senao
-                         se tipo=3 ent„o
+                         se tipo=3 ent√£o
                             escreva("Consulte o CPF:")
                          senao
-                            se tipo=4 ent„o
+                            se tipo=4 ent√£o
                                 escreva("Consulte o Telefone:")
                             senao
-                                se tipo=5 ent„o
+                                se tipo=5 ent√£o
                                     escreva("Consulte a Data de Nascimento:")
                                 fimse
                             fimse
@@ -90,27 +86,27 @@ inicio
                     fimse
                fimse
             senao
-                 se opcao=4 ent„o
+                 se opcao=4 ent√£o
                     escreval("*****Excluir dados:*****")
                     escreval("Excluir Nome - 1")
-                    escreval("Excluir EndereÁo - 2")
+                    escreval("Excluir Endere√ßo - 2")
                     escreval("Excluir CPF - 3")
                     escreval("Excluir Telefone - 4")
                     escreval("Excluir Data de Nascimento - 5")
                     leia(tipo)
-                       se tipo=1 ent„o
+                       se tipo=1 ent√£o
                           escreva("Exclua o Nome:")
                        senao
-                          se tipo=2 ent„o
-                             escreva("Exclua o EndereÁo:")
+                          se tipo=2 ent√£o
+                             escreva("Exclua o Endere√ßo:")
                           senao
-                             se tipo=3 ent„o
+                             se tipo=3 ent√£o
                                 escreva("Exclua o CPF:")
                              senao
-                                se tipo=4 ent„o
+                                se tipo=4 ent√£o
                                    escreva("Exclua o Telefone:")
                                 senao
-                                   se tipo=5 ent„o
+                                   se tipo=5 ent√£o
                                       escreva("Exclua a Data de Nascimento:")
                                    fimse
                                 fimse
@@ -132,10 +128,10 @@ inicio
    escreval("4-Excluir")
    escreval("5-Sair")
    leia(opcao)
-   se opcao=1 ent„o
+   se opcao=1 ent√£o
       escreva("Local:")
       leia(nome)
-      escreva("EndereÁo:")
+      escreva("Endere√ßo:")
       leia(endereco)
       escreva("Cep:")
       leia(cpf)
@@ -144,27 +140,27 @@ inicio
       escreva("Valor:")
       leia(data_nascimento)
    senao
-        se opcao=2 ent„o
+        se opcao=2 ent√£o
             escreval("*****Alterar dados*****")
             escreval("Alterar Nome - 1")
-            escreval("Alterar EndereÁo - 2")
+            escreval("Alterar Endere√ßo - 2")
             escreval("Aleterar CPF - 3")
             escreval("Alterar Telefone - 4")
             escreval("Alterar Data de Nascimento - 5")
             leia(tipo)
-            se tipo=1 ent„o
+            se tipo=1 ent√£o
                escreva("Altere o Local:")
             senao
-               se tipo=2 ent„o
-                  escreva("Altere o EndereÁo:")
+               se tipo=2 ent√£o
+                  escreva("Altere o Endere√ßo:")
                senao
-                  se tipo=3 ent„o
+                  se tipo=3 ent√£o
                      escreva("Altere o Cep:")
                   senao
-                     se tipo=4 ent„o
+                     se tipo=4 ent√£o
                         escreva("Altere o Estado:")
                      senao
-                        se tipo=5 ent„o
+                        se tipo=5 ent√£o
                            escreva("Altere o Valor:")
                         fimse
                      fimse
@@ -172,27 +168,27 @@ inicio
                fimse
             fimse
         senao
-            se opcao =3 ent„o
+            se opcao =3 ent√£o
                escreval("*****Consultar dados*****")
                escreval("Consultar Local - 1")
-               escreval("Consultar EndereÁo - 2")
+               escreval("Consultar Endere√ßo - 2")
                escreval("Consultar Cep - 3")
                escreval("Consultar Estado - 4")
                escreval("Consultar Valor - 5")
                leia(tipo)
-               se tipo=1 ent„o
+               se tipo=1 ent√£o
                   escreva("Consulte o Local:")
                senao
-                    se tipo=2 ent„o
-                       escreva("Consulte o EndereÁo:")
+                    se tipo=2 ent√£o
+                       escreva("Consulte o Endere√ßo:")
                     senao
-                         se tipo=3 ent„o
+                         se tipo=3 ent√£o
                             escreva("Consulte o Cep:")
                          senao
-                            se tipo=4 ent„o
+                            se tipo=4 ent√£o
                                 escreva("Consulte o Estado:")
                             senao
-                                se tipo=5 ent„o
+                                se tipo=5 ent√£o
                                     escreva("Consulte o Valor:")
                                 fimse
                             fimse
@@ -200,27 +196,27 @@ inicio
                     fimse
                fimse
             senao
-                 se opcao=4 ent„o
+                 se opcao=4 ent√£o
                     escreval("*****Excluir dados:*****")
                     escreval("Excluir Local - 1")
-                    escreval("Excluir EndereÁo - 2")
+                    escreval("Excluir Endere√ßo - 2")
                     escreval("Excluir Cep - 3")
                     escreval("Excluir Estado - 4")
                     escreval("Excluir Valor - 5")
                     leia(tipo)
-                       se tipo=1 ent„o
+                       se tipo=1 ent√£o
                           escreva("Exclua o Local:")
                        senao
-                          se tipo=2 ent„o
-                             escreva("Exclua o EndereÁo:")
+                          se tipo=2 ent√£o
+                             escreva("Exclua o Endere√ßo:")
                           senao
-                             se tipo=3 ent„o
+                             se tipo=3 ent√£o
                                 escreva("Exclua o Cep:")
                              senao
-                                se tipo=4 ent„o
+                                se tipo=4 ent√£o
                                    escreva("Exclua o Estado:")
                                 senao
-                                   se tipo=5 ent„o
+                                   se tipo=5 ent√£o
                                       escreva("Exclua o Valor:")
                                    fimse
                                 fimse
